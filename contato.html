@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./css/formulario.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="a.html">CADASTRO</a></h1>
+    </header>
+    <section class="formulario">
+        <form action="./contato.html">
+                <div>
+                    <label for="nome">Primeiro nome:</label>
+                    <input id="nome" name="nome" type="text">
+                </div>
+                <div>
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+                <div>
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf">
+                </div>
+                <div>
+                    <label for="genero">Gênero:</label>
+                    <select name="genero" id="genero">
+                        <option value="m">Masculino</option>
+                        <option value="f">Feminino</option>
+                        <option value="o">Outros</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="dataNascimento">Data de nascimento:</label>
+                    <input type="date" name="dataNascimento" id="dataNascimento">
+                </div>
+                <div>
+                    <label for="motivacao">Qual a sua motivação para a viagem?</label>
+                    <input type="text" name="motivacao" id="motivacao">
+                </div>
+                <section class="botoes">
+                    <input type="button" id="botaoinserir" value="Enviar">
+                    <input type="reset" value="Apagar" id="LIMPAR">  
+                </section>
+        </form>
+    </section>
+</body>
+
+</html>

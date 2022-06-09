@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&family=Lora&display=swap');
+body{
+    background-image: url(https://s2.glbimg.com/VdilU9p2GcZSymuyJvbzwUG4C3E=/e.glbimg.com/og/ed/f/original/2019/05/07/hubble.jpg);
+    font-family: 'Lora', 'Times New Roman';
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #e1e5f2;
+    margin:0;
+    padding:0;
+}
+h1{
+    text-align: center;
+    padding: 2.5rem;
+    font-size: 50px;
+    margin-top: 2rem;
+}
+.formulario{
+    color: #10002b;
+    background-color: #e1e5f2e7;
+    font-size: 16px;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    width: 400px;
+    padding: 40px;
+    box-shadow: 2px 2px 4px 4px #a5acc2;
+    border-radius: 50px;
+    margin-bottom: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+div{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+form div input{
+    width: 300px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid #10002b;
+}
+form div input:focus{
+    border-bottom: 2px solid #180b30;
+}
+#genero{
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Lora'
+}
+label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #10002b;
+}
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.botoes input{
+    padding: 20px;
+    background-color: #10002b;
+    color: #e1e5f2;
+    border-radius: 10px;
+    font-family: 'Lora';
+    font-size: 16px;
+    border: none;
+    transition: ease-in-out 1s;
+}
+.botoes input:hover{
+    color: #10002b;
+    background-color: transparent;
+    box-shadow: 2px 2px 2px 2px #10002b;
+    
+}

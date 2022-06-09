@@ -66,9 +66,10 @@ li a{
 }
 .box{
     position: absolute;
-    width: 425px;
+    width: 460px;
     padding: 30px 48px 30px 48px;
     background-color: rgba(0,0,0,0.5);
+    margin-top: -400px;
 }
 .box p{
     font-size: 20px;
